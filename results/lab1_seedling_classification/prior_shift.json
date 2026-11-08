@@ -1,0 +1,44 @@
+{
+  "oof_check": {
+    "oof_acc_before": 0.89,
+    "oof_acc_after": 0.868,
+    "estimated_prior_on_oof": [
+      0.23741997647020982,
+      0.18048538066671158,
+      0.15960763359574606,
+      0.21014670828989646,
+      0.21234030097743625
+    ],
+    "max_dev_from_uniform": 0.04039236640425395,
+    "usable": false
+  },
+  "estimated_prior_test": [
+    0.17173141564365305,
+    0.062432143317483,
+    0.2759904686841617,
+    0.26055686460661476,
+    0.2292891077480872
+  ],
+  "alpha": 0.0,
+  "changed": 0,
+  "n": 378,
+  "counts_before": {
+    "Black-grass": 75,
+    "Common wheat": 34,
+    "Loose Silky-bent": 94,
+    "Scentless Mayweed": 92,
+    "Sugar beet": 83
+  },
+  "counts_after": {
+    "Black-grass": 75,
+    "Common wheat": 34,
+    "Loose Silky-bent": 94,
+    "Scentless Mayweed": 92,
+    "Sugar beet": 83
+  },
+  "apply_gate": {
+    "alpha": 0.0,
+    "worst_case_gain": 0.0,
+    "passed": false
+  }
+}

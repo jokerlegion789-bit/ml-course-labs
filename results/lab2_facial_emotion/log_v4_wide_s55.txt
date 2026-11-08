@@ -1,0 +1,2 @@
+[v4_wide_s55] wide_cnn width=1.0 训练 25448 / 留出 2827 / 测试 7065   epochs=110 batch=256 lr=0.003 seed=55
+    参数量 557.4K

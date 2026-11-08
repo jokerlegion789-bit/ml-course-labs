@@ -1,0 +1,264 @@
+{
+  "members": {
+    "lin_resnet18": {
+      "oof_acc": 0.802,
+      "covered": 500,
+      "desc": "冻结特征 resnet18 + svc_lin_C1"
+    },
+    "lin_resnet50": {
+      "oof_acc": 0.834,
+      "covered": 500,
+      "desc": "冻结特征 resnet50 + logreg_C10"
+    },
+    "lin_efficientnet_b0": {
+      "oof_acc": 0.838,
+      "covered": 500,
+      "desc": "冻结特征 efficientnet_b0 + logreg_C100"
+    },
+    "lin_densenet121": {
+      "oof_acc": 0.832,
+      "covered": 500,
+      "desc": "冻结特征 densenet121 + svc_lin_C1"
+    },
+    "lin_concat": {
+      "oof_acc": 0.852,
+      "covered": 500,
+      "desc": "多骨干特征拼接(resnet18+resnet50+efficientnet_b0+densenet121) + logreg_C100"
+    },
+    "ft_effb0": {
+      "oof_acc": 0.858,
+      "covered": 500,
+      "desc": "微调 ft_effb0（覆盖 500/500 折样本）"
+    },
+    "ft_r18": {
+      "oof_acc": 0.886,
+      "covered": 500,
+      "desc": "微调 ft_r18（覆盖 500/500 折样本）"
+    },
+    "ft_r50": {
+      "oof_acc": 0.872,
+      "covered": 500,
+      "desc": "微调 ft_r50（覆盖 500/500 折样本）"
+    }
+  },
+  "greedy_trace": [
+    {
+      "step": 1,
+      "member": "ft_r18",
+      "oof_acc": 0.886
+    }
+  ],
+  "validation": {
+    "best_single": {
+      "mean": 0.8808400000000001,
+      "std": 0.013366166241671557,
+      "min": 0.84,
+      "max": 0.912,
+      "gain_vs_best_single": 0.0
+    },
+    "mean_top3": {
+      "mean": 0.884,
+      "std": 0.013623509092741131,
+      "min": 0.856,
+      "max": 0.92,
+      "gain_vs_best_single": 0.0031599999999999406
+    },
+    "mean_top5": {
+      "mean": 0.8768400000000003,
+      "std": 0.014678365031569435,
+      "min": 0.836,
+      "max": 0.916,
+      "gain_vs_best_single": -0.0039999999999997815
+    },
+    "bagged_greedy": {
+      "mean": 0.88248,
+      "std": 0.01444193892799718,
+      "min": 0.848,
+      "max": 0.924,
+      "gain_vs_best_single": 0.0016399999999999748
+    },
+    "all_mean": {
+      "mean": 0.8708,
+      "std": 0.013151425778218886,
+      "min": 0.836,
+      "max": 0.904,
+      "gain_vs_best_single": -0.010040000000000049
+    }
+  },
+  "validation_paired": {
+    "wins": 45,
+    "losses": 33,
+    "ties": 22,
+    "wilcoxon_stat": 1255.5,
+    "p_value": 0.15222713153779555,
+    "mean_diff": 0.0016400000000000015
+  },
+  "validation_choice": "mean_top3",
+  "cand_best_single": {
+    "members": [
+      "ft_r18"
+    ],
+    "weights": [
+      1.0
+    ],
+    "oof_acc": 0.886,
+    "n_eval": 500
+  },
+  "cand_mean": {
+    "members": [
+      "ft_r18",
+      "ft_r50",
+      "ft_effb0",
+      "lin_concat",
+      "lin_efficientnet_b0",
+      "lin_resnet50",
+      "lin_densenet121",
+      "lin_resnet18"
+    ],
+    "weights": [
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125
+    ],
+    "oof_acc": 0.87,
+    "n_eval": 500
+  },
+  "cand_mean_top3": {
+    "members": [
+      "ft_r18",
+      "ft_r50",
+      "ft_effb0"
+    ],
+    "weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "oof_acc": 0.89,
+    "n_eval": 500
+  },
+  "cand_mean_top5": {
+    "members": [
+      "ft_r18",
+      "ft_r50",
+      "ft_effb0",
+      "lin_concat",
+      "lin_efficientnet_b0"
+    ],
+    "weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "oof_acc": 0.88,
+    "n_eval": 500
+  },
+  "cand_greedy": {
+    "members": [
+      "ft_r18",
+      "ft_r50",
+      "ft_effb0",
+      "lin_concat",
+      "lin_efficientnet_b0",
+      "lin_resnet50",
+      "lin_densenet121",
+      "lin_resnet18"
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "oof_acc": 0.886,
+    "n_eval": 500
+  },
+  "cand_bagged": {
+    "members": [
+      "ft_r18",
+      "ft_r50",
+      "ft_effb0",
+      "lin_concat",
+      "lin_efficientnet_b0",
+      "lin_resnet50",
+      "lin_densenet121",
+      "lin_resnet18"
+    ],
+    "weights": [
+      0.6,
+      0.2875,
+      0.07916666666666666,
+      0.0,
+      0.0,
+      0.016666666666666666,
+      0.016666666666666666,
+      0.0
+    ],
+    "oof_acc": 0.894,
+    "n_eval": 500
+  },
+  "cand_weighted": {
+    "members": [
+      "ft_r18",
+      "ft_r50",
+      "ft_effb0",
+      "lin_concat",
+      "lin_efficientnet_b0",
+      "lin_resnet50",
+      "lin_densenet121",
+      "lin_resnet18"
+    ],
+    "weights": [
+      0.28058361391694725,
+      0.018705574261129808,
+      0.15587978550941514,
+      0.15587978550941514,
+      0.15587978550941514,
+      0.03242299538595835,
+      0.15587978550941514,
+      0.04476867439830402
+    ],
+    "oof_acc": 0.884,
+    "n_eval": 500
+  },
+  "chosen": "mean_top3(嵌套验证选定)",
+  "final": {
+    "members": [
+      "ft_r18",
+      "ft_r50",
+      "ft_effb0"
+    ],
+    "weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "oof_acc": 0.89,
+    "n_eval": 500,
+    "n_test": 378
+  },
+  "pred_distribution": {
+    "Black-grass": 75,
+    "Common wheat": 34,
+    "Loose Silky-bent": 94,
+    "Scentless Mayweed": 92,
+    "Sugar beet": 83
+  },
+  "confidence": {
+    "mean": 0.7445528161904168,
+    "min": 0.3037980993588765,
+    "p05": 0.45446974386771516,
+    "below_0.5": 40
+  }
+}

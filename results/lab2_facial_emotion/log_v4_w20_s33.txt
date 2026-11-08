@@ -1,0 +1,30 @@
+[v4_w20_s33] vgg_fer width=2.0 训练 25448 / 留出 2827 / 测试 7065   epochs=80 batch=256 lr=0.003 seed=33
+    参数量 4689.2K
+    ep  1/80 loss=1.6449 train=0.3416 holdout=0.4284 157s
+    ep  2/80 loss=1.4916 train=0.4359 holdout=0.4772 159s
+    ep  3/80 loss=1.4127 train=0.4879 holdout=0.4889 157s
+    ep  4/80 loss=1.3641 train=0.5144 holdout=0.5359 157s
+    ep  5/80 loss=1.3211 train=0.5383 holdout=0.5310 158s
+    ep  6/80 loss=1.2965 train=0.5551 holdout=0.5582 158s
+    ep  7/80 loss=1.2782 train=0.5637 holdout=0.5660 160s
+    ep  8/80 loss=1.2616 train=0.5722 holdout=0.5536 162s
+    ep  9/80 loss=1.2399 train=0.5816 holdout=0.5692 167s
+    ep 10/80 loss=1.2292 train=0.5895 holdout=0.5727 166s
+    ep 11/80 loss=1.2058 train=0.6013 holdout=0.5833 167s
+    ep 12/80 loss=1.1961 train=0.6087 holdout=0.5472 162s
+    ep 13/80 loss=1.1808 train=0.6181 holdout=0.6038 159s
+    ep 14/80 loss=1.1642 train=0.6257 holdout=0.5953 159s
+    ep 15/80 loss=1.1496 train=0.6354 holdout=0.5723 160s
+    ep 16/80 loss=1.1343 train=0.6420 holdout=0.5932 159s
+    ep 17/80 loss=1.1160 train=0.6483 holdout=0.6162 159s
+    ep 18/80 loss=1.1019 train=0.6572 holdout=0.6265 160s
+    ep 19/80 loss=1.0857 train=0.6711 holdout=0.6035 161s
+    ep 20/80 loss=1.0690 train=0.6770 holdout=0.6240 159s
+    ep 21/80 loss=1.0522 train=0.6873 holdout=0.6180 160s
+    ep 22/80 loss=1.0422 train=0.6920 holdout=0.6307 159s
+    ep 23/80 loss=1.0237 train=0.7027 holdout=0.6392 160s
+    ep 24/80 loss=1.0120 train=0.7071 holdout=0.6480 160s
+    ep 25/80 loss=0.9954 train=0.7201 holdout=0.6438 448s
+    ep 26/80 loss=0.9808 train=0.7283 holdout=0.6417 536s
+    ep 27/80 loss=0.9672 train=0.7356 holdout=0.6261 555s
+    ep 28/80 loss=0.9504 train=0.7459 holdout=0.6491 561s

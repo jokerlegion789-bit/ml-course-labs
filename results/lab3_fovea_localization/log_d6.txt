@@ -1,0 +1,28 @@
+[A] 折1 粗模型
+      [粗1] best val 43.13px @ep260
+    粗 43.13px (180s)
+[A] 折1 精修模型
+      [精1] best val 27.72px @ep130
+
+>>> 折1 两阶段：平均 27.02px 中位 12.01 <10px 31%  (704s)
+
+[B] 全量训练
+      [粗全] best val 29.80px @ep260
+      [精全] best val 25.13px @ep130
+    完成 (1507s)
+[C] 测试集预测
+Traceback (most recent call last):
+  File "D:\deepseek\task3\code\d6_fast.py", line 111, in <module>
+    main()
+    ~~~~^^
+  File "D:\deepseek\task3\code\d6_fast.py", line 86, in main
+    Xtp = build_patches(base_t, None, list(range(1, len(te_names) + 1)), "test")
+  File "D:\deepseek\task3\code\d6_fast.py", line 36, in build_patches
+    return np.stack([crop_patch(load_full_gray(i, split)[0], base_xy[k, 0], base_xy[k, 1])
+                                ~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\deepseek\task3\code\d4_twostage.py", line 50, in load_full_gray
+    im = Image.open(p).convert("L")
+         ~~~~~~~~~~^^^
+  File "D:\Python314\Lib\site-packages\PIL\Image.py", line 3639, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\deepseek\\task3\\detection\\test\\0001.jpg'

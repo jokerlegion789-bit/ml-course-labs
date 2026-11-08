@@ -1,0 +1,56 @@
+[v3_C_mild] vgg_fer width=1.0 训练 25448 / 留出 2827 / 测试 7065   epochs=50 batch=256 lr=0.003 seed=42
+    参数量 1174.2K
+    ep  1/50 loss=1.6610 train=0.3202 holdout=0.3962 96s
+    ep  2/50 loss=1.4932 train=0.4195 holdout=0.4018 99s
+    ep  3/50 loss=1.3998 train=0.4668 holdout=0.4853 97s
+    ep  4/50 loss=1.3390 train=0.4992 holdout=0.4867 97s
+    ep  5/50 loss=1.2837 train=0.5248 holdout=0.5147 96s
+    ep  6/50 loss=1.2427 train=0.5436 holdout=0.4991 95s
+    ep  7/50 loss=1.2191 train=0.5580 holdout=0.4818 96s
+    ep  8/50 loss=1.1917 train=0.5728 holdout=0.5327 95s
+    ep  9/50 loss=1.1661 train=0.5829 holdout=0.5539 96s
+    ep 10/50 loss=1.1358 train=0.5997 holdout=0.5561 97s
+    ep 11/50 loss=1.1150 train=0.6104 holdout=0.5681 127s
+    ep 12/50 loss=1.0864 train=0.6233 holdout=0.6003 107s
+    ep 13/50 loss=1.0651 train=0.6351 holdout=0.5960 141s
+    ep 14/50 loss=1.0378 train=0.6529 holdout=0.5883 116s
+    ep 15/50 loss=1.0213 train=0.6541 holdout=0.5953 97s
+    ep 16/50 loss=1.0038 train=0.6664 holdout=0.5801 95s
+    ep 17/50 loss=0.9784 train=0.6776 holdout=0.6183 97s
+    ep 18/50 loss=0.9562 train=0.6872 holdout=0.6013 95s
+    ep 19/50 loss=0.9331 train=0.6992 holdout=0.6120 97s
+    ep 20/50 loss=0.9127 train=0.7097 holdout=0.5960 96s
+    ep 21/50 loss=0.8965 train=0.7171 holdout=0.6265 96s
+    ep 22/50 loss=0.8674 train=0.7299 holdout=0.6265 95s
+    ep 23/50 loss=0.8528 train=0.7368 holdout=0.6098 96s
+    ep 24/50 loss=0.8179 train=0.7545 holdout=0.6190 95s
+    ep 25/50 loss=0.8017 train=0.7622 holdout=0.6215 96s
+    ep 26/50 loss=0.7849 train=0.7687 holdout=0.6166 96s
+    ep 27/50 loss=0.7548 train=0.7859 holdout=0.6240 96s
+    ep 28/50 loss=0.7264 train=0.7980 holdout=0.6233 95s
+    ep 29/50 loss=0.7091 train=0.8056 holdout=0.6254 95s
+    ep 30/50 loss=0.6834 train=0.8198 holdout=0.6166 96s
+    ep 31/50 loss=0.6546 train=0.8331 holdout=0.6229 96s
+    ep 32/50 loss=0.6280 train=0.8451 holdout=0.6158 95s
+    ep 33/50 loss=0.6132 train=0.8514 holdout=0.6275 95s
+    ep 34/50 loss=0.5926 train=0.8640 holdout=0.6293 96s
+    ep 35/50 loss=0.5688 train=0.8746 holdout=0.6268 86s
+    ep 36/50 loss=0.5499 train=0.8817 holdout=0.6293 83s
+    ep 37/50 loss=0.5324 train=0.8915 holdout=0.6247 83s
+    ep 38/50 loss=0.5174 train=0.8977 holdout=0.6254 83s
+    ep 39/50 loss=0.4996 train=0.9062 holdout=0.6222 83s
+    ep 40/50 loss=0.4867 train=0.9152 holdout=0.6314 83s
+    ep 41/50 loss=0.4773 train=0.9171 holdout=0.6321 82s
+    ep 42/50 loss=0.4679 train=0.9218 holdout=0.6233 78s
+    ep 43/50 loss=0.4605 train=0.9270 holdout=0.6250 74s
+    ep 44/50 loss=0.4553 train=0.9283 holdout=0.6339 74s
+    ep 45/50 loss=0.4508 train=0.9299 holdout=0.6318 74s
+    ep 46/50 loss=0.4445 train=0.9337 holdout=0.6332 75s
+    ep 47/50 loss=0.4386 train=0.9380 holdout=0.6272 84s
+    ep 48/50 loss=0.4398 train=0.9360 holdout=0.6296 83s
+    ep 49/50 loss=0.4383 train=0.9368 holdout=0.6272 89s
+    ep 50/50 loss=0.4358 train=0.9373 holdout=0.6279 89s
+    候选权重 best: 留出集(含TTA) = 0.6487
+    候选权重 swa: 留出集(含TTA) = 0.6463
+  [落盘] D:\deepseek\2026task2\result\meta_v3_C_mild.json
+[v3_C_mild] 完成。采用 best 权重，留出集准确率(含TTA) = 0.6487

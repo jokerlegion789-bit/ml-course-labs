@@ -1,0 +1,53 @@
+
+======================================================================
+[ft_r18] fold 2  训练 400 / 验证 100
+======================================================================
+    ep  1/45  loss=1.6341  train=0.1901  val=0.2500  59s
+    ep  2/45  loss=1.6086  train=0.2500  val=0.3200  68s
+    ep  3/45  loss=1.5810  train=0.2865  val=0.3900  68s
+    ep  4/45  loss=1.5441  train=0.3411  val=0.4400  68s
+    ep  5/45  loss=1.5033  train=0.3854  val=0.4500  62s
+    ep  6/45  loss=1.4554  train=0.4401  val=0.4800  53s
+    ep  7/45  loss=1.3813  train=0.3698  val=0.5000  64s
+    ep  8/45  loss=1.2410  train=0.6068  val=0.5900  67s
+    ep  9/45  loss=1.1513  train=0.6198  val=0.7000  52s
+    ep 10/45  loss=1.0420  train=0.6328  val=0.8100  63s
+    ep 11/45  loss=0.9204  train=0.7891  val=0.8700  64s
+    ep 12/45  loss=0.8184  train=0.7682  val=0.8600  63s
+    ep 13/45  loss=0.7829  train=0.6667  val=0.8900  65s
+    ep 14/45  loss=0.7809  train=0.7422  val=0.9100  60s
+    ep 15/45  loss=0.7337  train=0.7578  val=0.9200  59s
+    ep 16/45  loss=0.7206  train=0.8516  val=0.9100  49s
+    ep 17/45  loss=0.7755  train=0.6667  val=0.9200  49s
+    ep 18/45  loss=0.6569  train=0.8932  val=0.9000  48s
+    ep 19/45  loss=0.7215  train=0.7943  val=0.9200  57s
+    ep 20/45  loss=0.7551  train=0.6979  val=0.9100  50s
+    ep 21/45  loss=0.6687  train=0.8333  val=0.9100  56s
+    ep 22/45  loss=0.6548  train=0.6901  val=0.9100  56s
+    ep 23/45  loss=0.6851  train=0.9010  val=0.9200  56s
+    ep 24/45  loss=0.7887  train=0.7682  val=0.8900  47s
+    ep 25/45  loss=0.6826  train=0.6693  val=0.9000  46s
+    ep 26/45  loss=0.6212  train=0.7943  val=0.9100  43s
+    ep 27/45  loss=0.7332  train=0.5443  val=0.9100  43s
+    ep 28/45  loss=0.5678  train=0.9349  val=0.9400  42s
+    ep 29/45  loss=0.5580  train=0.9271  val=0.9300  42s
+    ep 30/45  loss=0.5580  train=0.9245  val=0.9300  43s
+    ep 31/45  loss=0.5507  train=0.9453  val=0.9300  42s
+    ep 32/45  loss=0.5443  train=0.9453  val=0.9000  42s
+    ep 33/45  loss=0.5247  train=0.9479  val=0.9200  42s
+    ep 34/45  loss=0.5336  train=0.9453  val=0.9200  42s
+    ep 35/45  loss=0.5474  train=0.9323  val=0.9100  43s
+    ep 36/45  loss=0.5181  train=0.9583  val=0.9200  43s
+    ep 37/45  loss=0.5176  train=0.9531  val=0.9300  43s
+    ep 38/45  loss=0.5331  train=0.9375  val=0.9300  43s
+    ep 39/45  loss=0.5029  train=0.9740  val=0.9300  43s
+    ep 40/45  loss=0.5315  train=0.9453  val=0.9200  43s
+    ep 41/45  loss=0.5314  train=0.9349  val=0.9300  42s
+    ep 42/45  loss=0.5192  train=0.9427  val=0.9400  43s
+    ep 43/45  loss=0.5152  train=0.9583  val=0.9300  43s
+    ep 44/45  loss=0.5451  train=0.9245  val=0.9200  42s
+    ep 45/45  loss=0.5207  train=0.9531  val=0.9100  43s
+    >> 最优 val=0.9400 @ep28
+  [落盘] D:\deepseek\2026task1\result\cv_ft_r18.json
+
+[ft_r18] fold 2 验证准确率 = 0.9200

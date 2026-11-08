@@ -1,0 +1,2 @@
+[v4_vgg_s77] vgg_fer width=1.0 训练 25448 / 留出 2827 / 测试 7065   epochs=120 batch=256 lr=0.003 seed=77
+    参数量 1174.2K

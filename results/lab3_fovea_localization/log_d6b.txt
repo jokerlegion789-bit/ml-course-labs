@@ -1,0 +1,16 @@
+[A] 折1 粗模型
+      [粗1] best val 43.13px @ep260
+    粗 43.13px (188s)
+[A] 折1 精修模型
+      [精1] best val 27.72px @ep130
+
+>>> 折1 两阶段：平均 27.02px 中位 12.01 <10px 31%  (636s)
+
+[B] 全量训练
+      [粗全] best val 29.80px @ep260
+      [精全] best val 25.13px @ep130
+    完成 (2900s)
+[C] 测试集预测
+
+>>> 提交: D:\deepseek\task3\submission_task3_twostage.csv
+>>> 折1 诚实估计 27.02px  总耗时 2904s

@@ -1,0 +1,34 @@
+{
+  "tag": "ft_effb0",
+  "backbone": "ft_effb0",
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "n_folds": 5,
+  "n_covered": 500,
+  "fold_val_mean": 0.858,
+  "oof_acc": 0.858,
+  "oof_acc_including_uncovered_as_uniform": 0.858,
+  "per_fold": {
+    "0": {
+      "val_acc": 0.88
+    },
+    "1": {
+      "val_acc": 0.82
+    },
+    "2": {
+      "val_acc": 0.88
+    },
+    "3": {
+      "val_acc": 0.84
+    },
+    "4": {
+      "val_acc": 0.87
+    }
+  },
+  "note": "由 aggregate_folds.py 汇总分折产物"
+}

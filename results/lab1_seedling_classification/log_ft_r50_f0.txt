@@ -1,0 +1,48 @@
+
+======================================================================
+[ft_r50] fold 0  训练 400 / 验证 100
+======================================================================
+    ep  1/40  loss=1.6050  train=0.1771  val=0.2500  192s
+    ep  2/40  loss=1.6021  train=0.2344  val=0.2600  155s
+    ep  3/40  loss=1.5856  train=0.2396  val=0.3300  153s
+    ep  4/40  loss=1.5620  train=0.2708  val=0.4000  155s
+    ep  5/40  loss=1.5372  train=0.3411  val=0.4400  154s
+    ep  6/40  loss=1.4871  train=0.3698  val=0.5200  152s
+    ep  7/40  loss=1.4429  train=0.4323  val=0.5100  151s
+    ep  8/40  loss=1.2979  train=0.4609  val=0.6200  150s
+    ep  9/40  loss=1.1605  train=0.5964  val=0.7400  154s
+    ep 10/40  loss=1.0931  train=0.6068  val=0.8000  144s
+    ep 11/40  loss=0.9621  train=0.5781  val=0.8100  151s
+    ep 12/40  loss=0.7854  train=0.6484  val=0.8400  151s
+    ep 13/40  loss=0.7792  train=0.7083  val=0.8500  152s
+    ep 14/40  loss=0.7500  train=0.6198  val=0.8300  152s
+    ep 15/40  loss=0.7627  train=0.7708  val=0.8800  150s
+    ep 16/40  loss=0.7168  train=0.8438  val=0.8800  153s
+    ep 17/40  loss=0.6435  train=0.8568  val=0.9100  148s
+    ep 18/40  loss=0.7162  train=0.6510  val=0.8800  152s
+    ep 19/40  loss=0.8073  train=0.5833  val=0.9000  152s
+    ep 20/40  loss=0.6999  train=0.7578  val=0.8900  151s
+    ep 21/40  loss=0.6317  train=0.7760  val=0.8900  152s
+    ep 22/40  loss=0.7055  train=0.6979  val=0.9100  210s
+    ep 23/40  loss=0.6433  train=0.8307  val=0.8900  153s
+    ep 24/40  loss=0.6910  train=0.7266  val=0.9000  152s
+    ep 25/40  loss=0.5473  train=0.9323  val=0.9000  146s
+    ep 26/40  loss=0.5333  train=0.9453  val=0.9000  144s
+    ep 27/40  loss=0.5282  train=0.9505  val=0.9100  149s
+    ep 28/40  loss=0.5396  train=0.9245  val=0.8800  154s
+    ep 29/40  loss=0.5195  train=0.9479  val=0.9000  153s
+    ep 30/40  loss=0.5244  train=0.9453  val=0.9100  163s
+    ep 31/40  loss=0.5198  train=0.9583  val=0.9100  230s
+    ep 32/40  loss=0.5192  train=0.9453  val=0.9000  225s
+    ep 33/40  loss=0.5397  train=0.9323  val=0.9000  196s
+    ep 34/40  loss=0.5227  train=0.9453  val=0.9000  161s
+    ep 35/40  loss=0.5068  train=0.9557  val=0.8800  150s
+    ep 36/40  loss=0.5349  train=0.9401  val=0.9000  150s
+    ep 37/40  loss=0.5000  train=0.9583  val=0.9000  151s
+    ep 38/40  loss=0.5374  train=0.9427  val=0.9100  153s
+    ep 39/40  loss=0.5201  train=0.9479  val=0.8700  150s
+    ep 40/40  loss=0.5114  train=0.9479  val=0.8900  151s
+    >> 最优 val=0.9100 @ep17
+  [落盘] D:\deepseek\2026task1\result\cv_ft_r50.json
+
+[ft_r50] fold 0 验证准确率 = 0.8800
